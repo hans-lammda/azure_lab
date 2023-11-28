@@ -86,3 +86,39 @@ Unpacking azure-cli (2.54.0-1~focal) ...
 Setting up azure-cli (2.54.0-1~focal) ...
 </pre>
 
+<strong>make login</strong>
+<pre>
+az login 
+A web browser has been opened at https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize. Please continue the login in the web browser. If no web browser is available or if the web browser fails to open, use device code flow with `az login --use-device-code`.
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "20e9e658-d844-4d9c-a0b7-36389d71736f",
+    "id": "dcf325b5-3e47-48b8-a84d-0f58b01b7864",
+    "isDefault": false,
+    "managedByTenants": [],
+    "name": "Azure for Students",
+    "state": "Disabled",
+    "tenantId": "20e9e658-d844-4d9c-a0b7-36389d71736f",
+    "user": {
+      "name": "hans.lamm@nackademin.se",
+      "type": "user"
+    }
+  },
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "20e9e658-d844-4d9c-a0b7-36389d71736f",
+    "id": "64906a88-9fc7-4d8e-812b-9d222c84be1f",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Kerim - Azure for Students",
+    "state": "Enabled",
+    "tenantId": "20e9e658-d844-4d9c-a0b7-36389d71736f",
+    "user": {
+      "name": "hans.lamm@nackademin.se",
+      "type": "user"
+    }
+  }
+]
+</pre>
+
