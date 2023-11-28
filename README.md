@@ -1,3 +1,10 @@
+# installation of az 
+All commands are included in a Makefile 
+just exectute the target ( $ make install ) 
+
+<strong>make install</strong>
+<pre>
+
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 Hit:1 http://se.archive.ubuntu.com/ubuntu focal InRelease
 Get:2 http://se.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]                                     
@@ -77,4 +84,5 @@ Selecting previously unselected package azure-cli.
 Preparing to unpack .../azure-cli_2.54.0-1~focal_amd64.deb ...
 Unpacking azure-cli (2.54.0-1~focal) ...
 Setting up azure-cli (2.54.0-1~focal) ...
+</pre>
 
