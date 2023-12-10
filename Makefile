@@ -43,7 +43,7 @@ include config
 include secrets
 
 login: 
-	az login --tenant $(TENANT_ID)
+	az login # --tenant $(TENANT_ID)
 
 create_sp:
 	az ad sp create-for-rbac --name $(SP_GRP_NAME) --role $(SP_ROLE) --scopes /subscriptions/$(SUBSCRIPTION_ID)/resourceGroups/$(RESOURCE_GRP) 
