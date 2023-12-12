@@ -1,0 +1,7 @@
+RESOURCE_GRP="Labbmiljo"
+subnetName=Subnet
+vnetAddressPrefix=10.0.0.0/16
+subnetAddressPrefix=10.0.0.0/24
+SP_ROLE=contributor
+SP_GRP_NAME=sp_resgrp
+REGION=swedencentral
