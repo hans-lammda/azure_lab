@@ -1,7 +1,8 @@
 include config.net
 REGION=swedencentral
-VM_NAME=NCK-SQL-DC1
+VM_NAME=NCK-SOL-DC1
 VM_SIZE=Standard_B1ms
 DISK_SIZE=128
+PRIVATE_IP=10.0.0.4
 VM_IMAGE=MicrosoftWindowsServer:WindowsServer:2019-datacenter-gensecond:latest
 INBOUND_PORT=3389

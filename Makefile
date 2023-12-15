@@ -130,6 +130,7 @@ create_vm:
           --subnet $(RESOURCE_GRP)-sub \
           --nsg $(RESOURCE_GRP)-nsg \
           --public-ip-address  $(RESOURCE_GRP)-$(VM_NAME)-ip \
+          --private-ip-address $(PRIVATE_IP) \
           --os-disk-size-gb $(DISK_SIZE) \
           --os-disk-name  $(RESOURCE_GRP)-$(VM_NAME)-disk 
 
