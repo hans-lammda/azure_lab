@@ -1,3 +1,5 @@
+# pip3 install sympy
+
 import random
 import sympy
 
@@ -68,8 +70,7 @@ n = p*q
 
 public, private = generate_keypair(p, q)
 
-# message = input("Type message: ")
-message = "Nacka" 
+message = "Nackademin" 
 
 encrypted_msg = encrypt(public, message)
 
@@ -77,6 +78,7 @@ print(f"Initial numbers are : P = {p} , Q = {q}")
 print(f"Modulus (n):  {p} * {q} = {n}")
 print(f"public  key (e,n)  is : {public}")
 print(f"private key (d,n)  is : {private}")
+print (f"Message is : {message}")
 print(f"Encrypted Message is : {encrypted_msg}")
-
 print (f"Decrypted Message is : {decrypt(private,encrypted_msg)}")
+

@@ -1,15 +1,24 @@
+# https://www.online-python.com
 
+# RSA Algorithm 
 def rsa(key, n, data):
-    return data ** key % n 
+    return data ** key % n
 
-public   =  5
-private  =  11
-n = 14 
+# Public Keypair 
+public=5
+n=14
 
-data = 2
-encrypted_data  = rsa(public, n, data)
-decrypted_data  = rsa(private, n, encrypted_data) 
+# Private  Keypair 
+private= 11 
+n=14 
 
-print (f"\nInput: {data} encrypted with keypair ({public},{n})  becomes {encrypted_data}\n")
-print (f"\nInput: {encrypted_data} decrypted with keypair ({private},{n})  becomes {decrypted_data}\n")
+#data to be encrypted  
+data = 2 
+print(data)
 
+# encrypt 
+enc_data  = rsa(public, n, data)
+print(enc_data)
+
+decrypted_data = rsa(private, n, enc_data)
+print(decrypted_data)
